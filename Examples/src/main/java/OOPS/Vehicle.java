@@ -1,6 +1,12 @@
 package OOPS;
 
 public class Vehicle {
+    int model;
+    String make;
+    public void Car(int carmodel, String carmake){
+        model = carmodel;
+        make = carmake;
+    }
     public void start()
     {
         System.out.println("Car Started");
