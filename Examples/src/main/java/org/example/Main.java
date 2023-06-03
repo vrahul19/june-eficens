@@ -1,7 +1,11 @@
 package org.example;
 
+import OOPS.Vehicle;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Vehicle car = new Vehicle();
+        car.start();
+        car.stop();
+        //System.out.println("Hello world!");
     }
 }
